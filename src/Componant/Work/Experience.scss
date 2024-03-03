@@ -1,0 +1,121 @@
+.wrkExperienceMain{
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+ background-color: rgba(127, 255, 127, 0.393) !important;
+    // opacity: 0;
+    // transform: translateY(220px);
+    // transition: opacity 1.8s ease, transform 1.8s ease;
+  
+    // &.fade-up {
+    //   opacity: 1;
+    //   transform: translateY(0);
+    // }
+}
+
+
+.wrkExperienceMain{
+    .heading{
+        h1{
+            font-weight: 900;
+            text-align: center;
+            padding-bottom: 20px !important;
+            font-size: 40px;
+        }
+        span{
+            color: rgba(31, 145, 86, 0.875);
+        }
+    }
+
+    
+    .expirience{
+        display: flex;
+    }
+    .expirience{
+        .expirience_left,.expirience_right{
+            width: 50%;
+            // background-color: red;
+            
+        }
+        .expirience_left{
+            .Exprnce_left_contents{
+                // background-color: yellow !important;
+                width: 360px;
+                margin: auto !important;
+                padding: 5px !important;
+            }
+            h4{
+                padding-top: 20px !important;
+                font-weight: 700 !important;
+                font-size: 25px;
+                // text-align: center;
+            }
+            
+        }
+        .line{
+            height: 140px;
+            border-right: 2px solid rgba(0, 0, 0, 0.21);
+        }
+        .expirience_right{
+            .expirience_contents{
+                margin: auto !important;
+                width: 400px;
+                // background-color: #f9977b;
+            }
+            h4{
+                padding-top: 20px !important;
+                font-weight: 700;
+                font-size: 25px;
+            }
+        }
+    }
+
+    @media(min-width:300px) and (max-width:575.98px){
+        .expirience_contents,.Exprnce_left_contents{
+            // background-color: yellow;
+            width: 150px !important;
+        }
+        .heading{
+            h1{
+                font-weight: 900;
+                text-align: center;
+                padding-bottom: 20px !important;
+                font-size: 30px;
+            } 
+        }
+        .line{
+            height: 140px !important;
+        }
+        .expirience_contents{
+            h4{
+                padding-top: 0 !important;
+                font-size: 16px !important;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+        .Exprnce_left_contents{
+            h4{
+                padding-top: 0 !important;
+                font-size: 16px !important;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+
+    .wrkExperienceMain {
+        opacity: 0 !important;
+        transform: translateY(20px) !important;
+        transition: opacity 1s ease, transform 1s ease !important;
+      }
+      
+      .wrkExperienceMain.show {
+        opacity: 1 !important;
+        transform: translateY(0) !important;
+      }
+      
+      /* Add more styling as needed */
+      
+}
